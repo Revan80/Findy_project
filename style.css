@@ -1,0 +1,105 @@
+/*--POLICES--*/
+
+@font-face {
+  font-family: "bariol";
+  src: url(polices/bariol.ttf);
+}
+
+@font-face {
+  font-family: "bariolbold";
+  src: url(polices/bariolbold.ttf);
+}
+
+@font-face {
+  font-family: "bariolthin1";
+  src: url(polices/bariolbold.ttf);
+  src: url(polices/bariolthin1.ttf);
+}
+
+@font-face {
+  font-family: "cooperm";
+  src: url(polices/cooperm.ttf);
+}
+
+/*--Eléments principaux de la page--*/
+* {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  background: linear-gradient(#ffffff, #ea5eef);
+  min-height: 100vh;
+}
+/*--En-tête et liens de navigation.--*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-family: "bariol";
+  margin-top: -7px;
+  font-size: 2.4em;
+}
+
+header nav {
+  display: flex;
+  margin-right: 10px;
+}
+
+header nav li {
+  margin-left: 18px;
+}
+
+header nav a {
+  font-family: "bariolthin1";
+  font-style: oblique;
+  font-weight: bold;
+  color: rgb(96, 96, 96);
+  font-size: 25px;
+}
+
+nav li a:hover {
+  color: rgb(245, 162, 176);
+}
+
+nav li a:visited {
+  color: rgb(3, 83, 175);
+}
+
+/*--CORPS DE PAGE--*/
+
+article p {
+  font-size: 4em;
+  font-family: cooperm;
+}
+
+/*--SVG--*/
+
+svg {
+  width: 75%;
+  height: 75%;
+}
+
+.svg {
+  margin-top: -220px;
+  margin-left: 580px;
+}
+
+#skate {
+  animation-name: skate;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes skate {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotatey(55deg);
+  }
+}

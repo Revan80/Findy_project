@@ -81,10 +81,31 @@ nav li a:visited {
 /*--SVG--*/
 
 svg {
-  width: 40%;
-  height: 40%;
+  width: 90%;
+  height: 90%;
 }
 
 .svg {
   margin-top: -50px;
+}
+
+@media screen and (max-width: 1059px) {
+  /**--SVG--*/
+  .svg {
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+
+  @media screen and (max-width: 395px) {
+    /**--SVG--*/
+    svg {
+      width: 60%;
+      height: 60%;
+    }
+
+    .svg {
+      margin-top: 50px;
+      margin-left: 100px;
+    }
+  }
 }

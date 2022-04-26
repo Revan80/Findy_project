@@ -28,7 +28,7 @@
 }
 
 body {
-  background: linear-gradient(#ffffff, #ea5eef);
+  background: linear-gradient(#ffffff, #a506e9);
   min-height: 100vh;
 }
 /*--En-tête et liens de navigation.--*/
@@ -42,6 +42,7 @@ header h1 {
   font-family: "bariol";
   margin-top: -7px;
   font-size: 2.4em;
+  color: black;
 }
 
 header nav {
@@ -57,16 +58,13 @@ header nav a {
   font-family: "bariolthin1";
   font-style: oblique;
   font-weight: bold;
-  color: rgb(96, 96, 96);
+  /* color: rgb(96, 96, 96); */
+  color: rgb(52, 51, 51);
   font-size: 25px;
 }
 
-nav li a:hover {
-  color: rgb(245, 162, 176);
-}
-
-nav li a:visited {
-  color: rgb(3, 83, 175);
+nav a:hover {
+  color: #a200ff;
 }
 
 /*--CORPS DE PAGE--*/
@@ -101,5 +99,342 @@ svg {
   }
   to {
     transform: rotatey(55deg);
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  /*--CORPS DE PAGE--*/
+  article p {
+    font-size: 3.2em;
+    font-family: cooperm;
+  }
+
+  /*--SVG--*/
+
+  svg {
+    width: 55%;
+    height: 55%;
+  }
+
+  .svg {
+    margin-top: -150px;
+    margin-left: 500px;
+  }
+
+  #skate {
+    animation-name: skate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes skate {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotatey(55deg);
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  /*--CORPS DE PAGE--*/
+  article p {
+    font-size: 2.9em;
+    font-family: cooperm;
+  }
+
+  /*--SVG--*/
+
+  svg {
+    width: 55%;
+    height: 55%;
+  }
+
+  .svg {
+    margin-top: -130px;
+    margin-left: 450px;
+  }
+
+  #skate {
+    animation-name: skate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes skate {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotatey(55deg);
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  /*--CORPS DE PAGE--*/
+  article p {
+    font-size: 2.5em;
+    font-family: cooperm;
+  }
+
+  /*--SVG--*/
+
+  svg {
+    width: 55%;
+    height: 55%;
+  }
+
+  .svg {
+    margin-top: -130px;
+    margin-left: 350px;
+  }
+
+  #skate {
+    animation-name: skate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes skate {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotatey(55deg);
+    }
+  }
+}
+
+@media screen and (max-width: 895px) {
+  /*--En-tête et liens de navigation.--*/
+
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header h1 {
+    font-family: "bariol";
+    margin-top: -7px;
+    font-size: 2.1em;
+  }
+  header nav a {
+    font-family: "bariolthin1";
+    font-style: oblique;
+    font-weight: bold;
+    color: rgb(96, 96, 96);
+    font-size: 22px;
+  }
+
+  /*--CORPS DE PAGE--*/
+  article p {
+    font-size: 2em;
+    font-family: cooperm;
+  }
+
+  /*--SVG--*/
+
+  svg {
+    width: 55%;
+    height: 55%;
+  }
+
+  .svg {
+    margin-top: -95px;
+    margin-left: 330px;
+  }
+
+  #skate {
+    animation-name: skate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes skate {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotatey(55deg);
+    }
+  }
+}
+
+@media screen and (max-width: 695px) {
+  /*--En-tête et liens de navigation.--*/
+
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header h1 {
+    font-family: "bariol";
+    margin-top: -7px;
+    font-size: 1.9em;
+  }
+  header nav a {
+    font-family: "bariolthin1";
+    font-style: oblique;
+    font-weight: bold;
+    color: rgb(96, 96, 96);
+    font-size: 21px;
+  }
+
+  /*--CORPS DE PAGE--*/
+  article p {
+    font-size: 1.7em;
+    font-family: cooperm;
+  }
+
+  /*--SVG--*/
+
+  svg {
+    width: 55%;
+    height: 55%;
+  }
+
+  .svg {
+    margin-top: -95px;
+    margin-left: 270px;
+  }
+
+  #skate {
+    animation-name: skate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes skate {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotatey(55deg);
+    }
+  }
+}
+
+@media screen and (max-width: 595px) {
+  /*--En-tête et liens de navigation.--*/
+
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header h1 {
+    font-family: "bariol";
+    margin-top: -7px;
+    font-size: 1.8em;
+  }
+  header nav a {
+    font-family: "bariolthin1";
+    font-style: oblique;
+    font-weight: bold;
+    color: rgb(96, 96, 96);
+    font-size: 20px;
+  }
+
+  /*--CORPS DE PAGE--*/
+  article p {
+    font-size: 1em;
+    font-family: cooperm;
+  }
+
+  /*--SVG--*/
+
+  svg {
+    width: 55%;
+    height: 55%;
+  }
+
+  .svg {
+    margin-top: -60px;
+    margin-left: 150px;
+  }
+
+  #skate {
+    animation-name: skate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes skate {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotatey(55deg);
+    }
+  }
+}
+
+@media screen and (max-width: 395px) {
+  body {
+    background: linear-gradient(#ffffff, #a506e9);
+    min-height: 150vh;
+    width: 292px;
+  }
+
+  /*--En-tête et liens de navigation.--*/
+  header {
+    display: flex;
+    justify-content: space-between;
+    width: 365px;
+  }
+
+  header h1 {
+    font-family: "bariol";
+    margin-top: -7px;
+    font-size: 1.5em;
+  }
+  header nav a {
+    font-family: "bariolthin1";
+    font-style: oblique;
+    font-weight: bold;
+    color: rgb(96, 96, 96);
+    font-size: 17px;
+  }
+
+  /*--CORPS DE PAGE--*/
+  article p {
+    font-size: 1.5em;
+    font-family: cooperm;
+  }
+  /*--SVG--*/
+
+  svg {
+    width: 130%;
+    height: 130%;
+  }
+
+  .svg {
+    margin-top: -40px;
+    margin-left: 40px;
+  }
+
+  #skate {
+    animation-name: skate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes skate {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotatey(55deg);
+    }
   }
 }
